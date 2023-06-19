@@ -4,7 +4,7 @@ import { Montserrat } from "next/font/google";
 import Head from "next/head";
 
 const montserrat = Montserrat({
-  subsets: ["latin"],
+  subsets: ["latin"], 
   variable: "--font-mont",
 });
 
