@@ -34,7 +34,7 @@ const Home = () => {
                 className="!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl  
                 "/>
-              <p className="my-4 text-base font-medium">
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
                 projects and certificates, showcasing my expertise in React.js and
@@ -49,7 +49,7 @@ const Home = () => {
                 border-2 border-solid border-transparent hover:border-dark 
 
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                hover:dark:border-light
+                hover:dark:border-light md:p-2 md:px-4 md:text-base
                 "
                   download={true}
                 >
@@ -59,7 +59,7 @@ const Home = () => {
                 <Link
                   href="mailto:violehours@gmail.com"
                   target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light"
+                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
                 </Link>
