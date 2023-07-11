@@ -8,6 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/Countries-PI.png";
 import project2 from "../../public/images/projects/e-latam.png";
 import { motion } from 'framer-motion'
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image)
 
@@ -120,6 +121,7 @@ const projects = () => {
         <title> VioleHours | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
