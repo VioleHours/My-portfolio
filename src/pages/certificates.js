@@ -7,6 +7,7 @@ import Image from "next/image";
 import certificado1 from '../../public/images/certificate/VioletaHours.png'
 import certificado2 from '../../public/images/certificate/Certificado-Ingles-preview.png'
 import certificado3 from '../../public/images/certificate/certificado-Python-preview.png'
+import certificado4 from '../../public/images/certificate/certificadoFSHenry.png'
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -56,6 +57,12 @@ const certificates = () => {
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+            <FeaturedCertificates 
+            img={certificado4}
+            title='Full Stack Web Developer'
+            time='Oct. 2022 - Jul. 2023'
+            link='/certificado-fs-Henry.pdf'
+            />
             <FeaturedCertificates 
             img={certificado1}
             title='Teaching Assistant Certificate'
