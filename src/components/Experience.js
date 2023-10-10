@@ -52,6 +52,28 @@ const Experience = () => {
           "/>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Frontend Developer"
+            company="DASCalendar"
+            companyLink="https://www.dascalendar.com/"
+            time="oct. 2023 - present"
+            address="Remote - Argentina"
+            work=" 
+                Main tasks:
+                    • Working in a group, primarily focusing on the frontend development of the application.
+            "
+          />
+          <Details
+            position="Odoo Developer"
+            company="InkuA"
+            companyLink="https://www.inkua.de/"
+            time="may. 2023 - oct. 2023"
+            address="Remote - Argentina"
+            work=" 
+                Main tasks:
+                    • Development of websites for NGOs and Odoo updates research for websites.
+            "
+          />
+          <Details
             position="Full-Stack Teaching Assistant"
             company="Henry"
             companyLink="https://www.soyhenry.com/"

@@ -44,8 +44,14 @@ const Education = () => {
           md:w-[2px] md:left-[30px] xs:left-[20px]
           "/>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <Details
+            type="UX/UI Design"
+            time="aug. 2023 - Present"
+            place="<Codo a Codo>"
+            info="198 hours of theoretical and practical training in UX/UI Design, with the aim of developing a mobile application that solves a problem in the community."
+          />
           <Details
-            type="Full Stack Developer"
+            type="Full Stack Web Developer"
             time="oct. 2022 - jul. 2023"
             place="Henry"
             info="An intensive online program that simulates a real work enviroment and prepares you for a successfull carrer as a Full Stack developer"
