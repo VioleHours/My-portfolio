@@ -42,36 +42,36 @@ const Home = () => {
                 projects and certificates, showcasing my expertise in React.js and
                 web development.
               </p>
-              <div className="flex items-center self-start mt-2 lg:self-center">
+              <div className="flex items-center justify-center self-start gap-2 mt-2 lg:self-center">
                 <Link
-                  href="/Cv Violeta Sol Arias Hours ES.pdf"
+                  href="/Cv Violeta Sol Arias Hours ES 2024.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark 
 
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                hover:dark:border-light md:p-2 md:px-4 md:text-base mb-12
+                hover:dark:border-light md:p-2 md:px-4 md:text-base mb-4
                 "
                   download={true}
                 >
                   Resume-ES
-                  <LinkArrow className={"w-6 ml-1"} />
+                  <LinkArrow className={"w-4 ml-1"} />
                 </Link>
                 <Link
-                  href="/CV Violeta Sol Arias Hours EN.pdf"
+                  href="/CV Violeta Sol Arias Hours EN 2024.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                 border-2 border-solid border-transparent hover:border-dark 
 
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                hover:dark:border-light md:p-2 md:px-4 md:text-base mb-12
+                hover:dark:border-light md:p-2 md:px-4 md:text-base mb-4
                 "
                   download={true}
                 >
                   Resume-EN
-                  <LinkArrow className={"w-6 ml-1"} />
+                  <LinkArrow className={"w-4 ml-1"} />
                 </Link>
                 <Link
                   href="mailto:violehours@gmail.com"
