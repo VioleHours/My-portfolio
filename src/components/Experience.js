@@ -55,7 +55,7 @@ const Experience = () => {
             position="Frontend Developer"
             company="DASCalendar"
             companyLink="https://www.dascalendar.com/"
-            time="oct. 2023 - present"
+            time="oct. 2023 - mar. 2024"
             address="Remote - Argentina"
             work=" 
                 Main tasks:
