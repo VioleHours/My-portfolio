@@ -3,15 +3,17 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
-    const ref = useRef(null)
+  const ref = useRef(null);
   return (
-    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
-
-        <LiIcon reference={ref}/>
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+    >
+      <LiIcon reference={ref} />
       <motion.div
-      initial={{y:50}}
-      whileInView={{y:0}}
-      transition={{duration:0.5, type: 'spring'}}
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
@@ -49,7 +51,8 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className=" absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
           md:w-[2px] md:left-[30px] xs:left-[20px]
-          "/>
+          "
+        />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             position="Frontend Developer"
@@ -60,6 +63,9 @@ const Experience = () => {
             work=" 
                 Main tasks:
                     • Working in a group, primarily focusing on the frontend development of the application.
+                    • Design and development of a responsive and visually attractive website, ensuring an intuitive and pleasant user experience.
+                    • Team collaboration with focus on frontend development of the application using React, Typescript and Tailwind CSS.
+                    • Integration of APIs and backend services to efficiently fetch and send data, ensuring seamless communication between frontend and backend.
             "
           />
           <Details
@@ -71,6 +77,9 @@ const Experience = () => {
             work=" 
                 Main tasks:
                     • Development of websites for NGOs and Odoo updates research for websites.
+                    • Constant updating and research to improve the usability and functionality of the websites.
+                    • Implementation of customized solutions in Odoo to optimize internal processes and improve efficiency.
+                    • Active participation in meetings and brainstorming sessions to generate new strategies and innovative approaches.
             "
           />
           <Details
