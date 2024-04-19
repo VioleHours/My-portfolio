@@ -56,7 +56,7 @@ const Home = () => {
                   download={true}
                 >
                   Resume-ES
-                  <LinkArrow className={"w-2 h-2 ml-1"} />
+                  <LinkArrow className={"w-1 ml-1"} />
                 </Link>
                 <Link
                   href="\Cv Violeta Sol Arias Hours EN 2024.pdf"
@@ -71,7 +71,7 @@ const Home = () => {
                   download={true}
                 >
                   Resume-EN
-                  <LinkArrow className={"w-2 h-2 ml-1"} />
+                  <LinkArrow className={"w-1 ml-1"} />
                 </Link>
                 <Link
                   href="mailto:violehours@gmail.com"
