@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  TwitterIcon,
+  // TwitterIcon,
   GithubIcon,
   LinkedInIcon,
   PinterestIcon,
@@ -106,7 +106,7 @@ const NavBar = () => {
         />
       </nav>
       <nav className="flex items-center justify-center flex-wrap">
-        <motion.a
+        {/* <motion.a
           href="https://twitter.com/ViioleSool"
           target={"_blank"}
           whileHover={{ y: -2 }}
@@ -114,7 +114,7 @@ const NavBar = () => {
           className="w-6 mr-3"
         >
           <TwitterIcon />
-        </motion.a>
+        </motion.a> */}
         <motion.a
           href="https://github.com/VioleHours"
           target={"_blank"}
@@ -176,7 +176,7 @@ const NavBar = () => {
            toggle={handleClick}/>
         </nav>
         <nav className="flex items-center justify-center flex-wrap mt-2">
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com/ViioleSool"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -184,7 +184,7 @@ const NavBar = () => {
             className="w-6 mr-3 sm:mx-1"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
             href="https://github.com/VioleHours"
             target={"_blank"}

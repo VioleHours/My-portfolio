@@ -8,7 +8,6 @@ import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 
-
 const Home = () => {
   return (
     <>
@@ -35,16 +34,17 @@ const Home = () => {
                 text="Turning Vision Into Reality With Code And Design."
                 className="!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl  
-                "/>
+                "
+              />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
-                projects and certificates, showcasing my expertise in React.js and
-                web development.
+                projects and certificates, showcasing my expertise in React.js
+                and web development.
               </p>
               <div className="flex items-center justify-center self-start gap-2 mt-2 lg:self-center">
                 <Link
-                  href="/Cv Violeta Sol Arias Hours ES 2024.pdf"
+                  href="\Cv Violeta Sol Arias Hours ES 2024.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
@@ -56,10 +56,10 @@ const Home = () => {
                   download={true}
                 >
                   Resume-ES
-                  <LinkArrow className={"w-4 ml-1"} />
+                  <LinkArrow className={"w-2 ml-1"} />
                 </Link>
                 <Link
-                  href="/CV Violeta Sol Arias Hours EN 2024.pdf"
+                  href="\Cv Violeta Sol Arias Hours EN 2024.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
@@ -71,7 +71,7 @@ const Home = () => {
                   download={true}
                 >
                   Resume-EN
-                  <LinkArrow className={"w-4 ml-1"} />
+                  <LinkArrow className={"w-2 ml-1"} />
                 </Link>
                 <Link
                   href="mailto:violehours@gmail.com"
@@ -92,6 +92,6 @@ const Home = () => {
       </main>
     </>
   );
-}
+};
 
-export default Home; 
+export default Home;
