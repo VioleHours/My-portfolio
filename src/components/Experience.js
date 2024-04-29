@@ -64,6 +64,7 @@ const Experience = () => {
                 Main tasks:
                     • Working in a group, primarily focusing on the frontend development of the application.
                     • Design and development of a responsive and visually attractive website, ensuring an intuitive and pleasant user experience.
+                    • Leadership as Scrum Master/Product Owner, facilitating meetings and ensuring the effective application of agile methodologies.
                     • Team collaboration with focus on frontend development of the application using React, Typescript and Tailwind CSS.
                     • Integration of APIs and backend services to efficiently fetch and send data, ensuring seamless communication between frontend and backend.
             "
