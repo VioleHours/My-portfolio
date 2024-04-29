@@ -44,7 +44,7 @@ const Home = () => {
               </p>
               <div className="flex items-center justify-center self-start gap-2 mt-2 lg:self-center">
                 <Link
-                  href="\Cv Violeta Sol Arias Hours ES 2024.pdf"
+                  href="\Cv Violeta Sol Arias Hours ACT-2024.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
