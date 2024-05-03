@@ -8,6 +8,7 @@ import certificado1 from '../../public/images/certificate/VioletaHours.png'
 import certificado2 from '../../public/images/certificate/Certificado-Ingles-preview.png'
 import certificado3 from '../../public/images/certificate/certificado-Python-preview.png'
 import certificado4 from '../../public/images/certificate/certificadoFSHenry.png'
+import certificado5 from '../../public/images/certificate/Certificado-TestingEstatico.png'
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -80,6 +81,12 @@ const certificates = () => {
             title='Python Certificate'
             time='May 2023'
             link='/certificado-python-profesional.pdf'
+            />
+            <FeaturedCertificates 
+            img={certificado5}
+            title='Static Test Certificate'
+            time='May 2024'
+            link='/Certificado - Curso de testing estático.pdf'
             />
           </ul>
         </Layout>
