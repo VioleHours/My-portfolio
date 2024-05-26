@@ -7,10 +7,12 @@ import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/Countries-PI.png";
 import project2 from "../../public/images/projects/e-latam.png";
-import { motion } from 'framer-motion'
+import project3 from "../../public/images/projects/Star-Wars.png";
+import project4 from '../../public/images/projects/Naipes-Conectados.png';
+import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const FramerImage = motion(Image)
+const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -20,30 +22,41 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
     "
     >
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
+      <div
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
       rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]
-      " />
+      "
+      />
       <Link
         href={link}
         target="_blank"
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
       >
-        <FramerImage src={img} alt={title} className="w-full h-auto" 
-        whileHover={{scale:1.05}}
-        transition={{duration:0.2}}
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
         />
       </Link>
 
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
-        <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base">{type}</span>
+        <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base">
+          {type}
+        </span>
         <Link
           href={link}
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm">{title}</h2>
+          <h2 className="my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm">
+            {title}
+          </h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
             {" "}
@@ -74,28 +87,37 @@ const Project = ({ title, type, img, link, github }) => {
       xs:p-4
       "
     >
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light
+      <div
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light
       rounded-br-3xl md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
-      " />
+      "
+      />
       <Link
         href={link}
         target="_blank"
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
-        <FramerImage src={img} alt={title} className="w-full h-auto" 
-        whileHover={{scale:1.05}}
-        transition={{duration:0.2}}
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
         />
       </Link>
 
       <div className="w-full flex flex-col items-start justify-between mt-4">
-        <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">{type}</span>
+        <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">
+          {type}
+        </span>
         <Link
           href={link}
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl">{title}</h2>
+          <h2 className="my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl">
+            {title}
+          </h2>
         </Link>
         <div className="w-full mt-2 flex items-center justify-berween">
           <Link
@@ -148,6 +170,26 @@ const projects = () => {
                 type="Featured Project"
                 img={project2}
                 github="https://github.com/fedesmpz/PF-E-Latam"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Star Wars"
+                link="https://star-wars-tec.vercel.app"
+                type="Individual Project"
+                img={project3}
+                github="https://github.com/VioleHours/StarWars-Tec"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Naipes Conectados"
+                summary="
+                In this case I developed a mini game without using anything other than react, css and typescript. One must arrange the cards in the piles according to the one indicated on the text above, the complication is that only the last row can return to the first row, the one in the center cannot return back, nor can the last row return to the center."
+                link="https://naipes-conectados.vercel.app/"
+                type="Individual Project (game)"
+                img={project4}
+                github="https://github.com/VioleHours/NaipesConectados-Tec"
               />
             </div>
           </div>
