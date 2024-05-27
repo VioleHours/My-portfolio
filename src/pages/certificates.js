@@ -9,6 +9,7 @@ import certificado2 from '../../public/images/certificate/Certificado-Ingles-pre
 import certificado3 from '../../public/images/certificate/certificado-Python-preview.png'
 import certificado4 from '../../public/images/certificate/certificadoFSHenry.png'
 import certificado5 from '../../public/images/certificate/Certificado-TestingEstatico.png'
+import certificado6 from '../../public/images/certificate/CertificadoDUXUICodoACodo.png'
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -75,6 +76,12 @@ const certificates = () => {
             title='English Level'
             time='Jun. 2023'
             link='/EF SET Certificate.pdf'
+            />
+            <FeaturedCertificates 
+            img={certificado6}
+            title='UX/UI Design'
+            time='Aug 2023 - Dic 2023'
+            link='/Arias Hours Violeta Sol - Diseño UXUI.pdf'
             />
             <FeaturedCertificates 
             img={certificado3}

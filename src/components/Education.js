@@ -46,7 +46,7 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
         <Details
             type="UX/UI Design"
-            time="aug. 2023 - Present"
+            time="aug. 2023 - dic. 2023"
             place="<Codo a Codo>"
             info="198 hours of theoretical and practical training in UX/UI Design, with the aim of developing a mobile application that solves a problem in the community."
           />
