@@ -48,6 +48,8 @@ const Skills = () => {
         <Skill name="NodeJs" x="0vw" y="-20vw" />
         <Skill name="PostgreSQL" x="-25vw" y="18vw" />
         <Skill name="Tailwind CSS" x="18vw" y="18vw" />
+        <Skill name="Astro" x="0vw" y="27vw" />
+        <Skill name="React Native" x="20vw" y="-22vw" />
       </div>
     </>
   );

@@ -10,6 +10,7 @@ import certificado3 from '../../public/images/certificate/certificado-Python-pre
 import certificado4 from '../../public/images/certificate/certificadoFSHenry.png'
 import certificado5 from '../../public/images/certificate/Certificado-TestingEstatico.png'
 import certificado6 from '../../public/images/certificate/CertificadoDUXUICodoACodo.png'
+import certificado7 from '../../public/images/certificate/Certificado-TailwindCss.jpg'
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -94,6 +95,12 @@ const certificates = () => {
             title='Static Test Certificate'
             time='May 2024'
             link='/Certificado - Curso de testing estático.pdf'
+            />
+             <FeaturedCertificates 
+            img={certificado7}
+            title='TailwindCss Certificate'
+            time='Jul 2024'
+            link='/certificado-tailwind.pdf'
             />
           </ul>
         </Layout>

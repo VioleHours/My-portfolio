@@ -59,7 +59,7 @@ const Home = () => {
                   <LinkArrow className={"w-4 ml-1"} />
                 </Link>
                 <Link
-                  href="\Cv Violeta Sol Arias Hours EN 2024.pdf"
+                  href="\Cv Violeta Sol Arias Hours EN ACT-2024.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark

@@ -28,7 +28,11 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm">{work}</p>
+        <ul className="font-medium w-full md:text-sm">
+          {work.split("\n").map((line, index) => (
+            <li key={index}>{line}</li>
+          ))}
+        </ul>
       </motion.div>
     </li>
   );
@@ -56,18 +60,43 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             position="Frontend Developer"
+            company="InkuA"
+            companyLink="https://www.inkua.de/"
+            time="Jun. 2024- Present"
+            address="Remote"
+            work={`Main tasks:
+              ● Development of websites for NGOs and Odoo updates research for websites.
+                    ● Constant updating and research to improve the usability and functionality of the websites.
+                    ● Implementation of customized solutions in Odoo to optimize internal processes and improve efficiency.
+                    ● Active participation in meetings and brainstorming sessions to generate new strategies and innovative approaches.`}
+          />
+          <Details
+            position="Frontend Developer"
+            company="Freelance"
+            companyLink=""
+            time="Apr. 2024- Present"
+            address="Remote"
+            work={`Main tasks:
+              ● Collaborated with various clients in designing and developing modern and responsive user interfaces (UI). 
+              ● Redesigned websites with included UX/UI Design. 
+              ● Utilized technologies such as React.js, TypeScript, JavaScript, Tailwind CSS, and Zustand to create intuitive and engaging user experiences. 
+              ● Focused on implementing responsive and accessible design to ensure maximum compatibility with different devices and browsers. 
+              ● Efficiently managed application state and maintained clean and modular code.`}
+          />
+          <Details
+            position="Frontend Developer"
             company="DASCalendar"
             companyLink="https://www.dascalendar.com/"
             time="oct. 2023 - mar. 2024"
             address="Remote - Argentina"
-            work=" 
+            work={` 
                 Main tasks:
-                    • Working in a group, primarily focusing on the frontend development of the application.
-                    • Design and development of a responsive and visually attractive website, ensuring an intuitive and pleasant user experience.
-                    • Leadership as Scrum Master/Product Owner, facilitating meetings and ensuring the effective application of agile methodologies.
-                    • Team collaboration with focus on frontend development of the application using React, Typescript and Tailwind CSS.
-                    • Integration of APIs and backend services to efficiently fetch and send data, ensuring seamless communication between frontend and backend.
-            "
+                    ● Working in a group, primarily focusing on the frontend development of the application. 
+                    ● Design and development of a responsive and visually attractive website, ensuring an intuitive and pleasant user experience. 
+                    ● Leadership as Scrum Master/Product Owner, facilitating meetings and ensuring the effective application of agile methodologies. 
+                    ● Team collaboration with focus on frontend development of the application using React, Typescript and Tailwind CSS. 
+                    ● Integration of APIs and backend services to efficiently fetch and send data, ensuring seamless communication between frontend and backend. 
+            `}
           />
           <Details
             position="Odoo Developer"
@@ -75,13 +104,13 @@ const Experience = () => {
             companyLink="https://www.inkua.de/"
             time="may. 2023 - oct. 2023"
             address="Remote - Argentina"
-            work=" 
+            work={` 
                 Main tasks:
-                    • Development of websites for NGOs and Odoo updates research for websites.
-                    • Constant updating and research to improve the usability and functionality of the websites.
-                    • Implementation of customized solutions in Odoo to optimize internal processes and improve efficiency.
-                    • Active participation in meetings and brainstorming sessions to generate new strategies and innovative approaches.
-            "
+                    ● Development of websites for NGOs and Odoo updates research for websites.
+                    ● Constant updating and research to improve the usability and functionality of the websites.
+                    ● Implementation of customized solutions in Odoo to optimize internal processes and improve efficiency.
+                    ● Active participation in meetings and brainstorming sessions to generate new strategies and innovative approaches.
+            `}
           />
           <Details
             position="Full-Stack Teaching Assistant"
@@ -89,15 +118,15 @@ const Experience = () => {
             companyLink="https://www.soyhenry.com/"
             time="nov. 2022 - feb. 2023"
             address="Remote - Argentina"
-            work="
+            work={`
                 Teaching Assistant (TA) for students at Henry Bootcamp.
                 Main tasks:
-                    • Coordinate a group of new joining students throughout the whole bootcamp experience
-                    • Guide students in the first steps of the course and clarify their doubts
-                    • Provide assistance in solving exercises and encourage group teamwork (Pair Programming).
-                    • Suggest ideas to improve the Bootcamp processes.
-                    • Promote collaboration and build community within the students
-                "
+                    ● Coordinate a group of new joining students throughout the whole bootcamp experience
+                    ● Guide students in the first steps of the course and clarify their doubts
+                    ● Provide assistance in solving exercises and encourage group teamwork (Pair Programming).
+                    ● Suggest ideas to improve the Bootcamp processes.
+                    ● Promote collaboration and build community within the students
+                `}
           />
         </ul>
       </div>
