@@ -9,6 +9,7 @@ import project1 from "../../public/images/projects/Countries-PI.png";
 import project2 from "../../public/images/projects/e-latam.png";
 import project3 from "../../public/images/projects/Star-Wars.png";
 import project4 from '../../public/images/projects/Naipes-Conectados.png';
+import project5 from '../../public/images/projects/portfolio.png';
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -190,6 +191,15 @@ const projects = () => {
                 type="Individual Project (game)"
                 img={project4}
                 github="https://github.com/VioleHours/NaipesConectados-Tec"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Portfolio HTML-Bootstrap"
+                link="https://violehoursportfolio.netlify.app/"
+                type="Individual Project"
+                img={project5}
+                github="https://github.com/VioleHours/Portfolio-MediaPila"
               />
             </div>
           </div>
