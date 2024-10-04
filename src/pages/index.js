@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
+import profilePic from "../../public/images/profile/developer-pic-1.webp";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
@@ -27,6 +27,7 @@ const Home = () => {
                 priority={true}
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 50vw"
+                rel="preload" 
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">

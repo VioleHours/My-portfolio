@@ -4,13 +4,13 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import certificado1 from '../../public/images/certificate/VioletaHours.png'
-import certificado2 from '../../public/images/certificate/Certificado-Ingles-preview.png'
-import certificado3 from '../../public/images/certificate/certificado-Python-preview.png'
-import certificado4 from '../../public/images/certificate/certificadoFSHenry.png'
-import certificado5 from '../../public/images/certificate/Certificado-TestingEstatico.png'
-import certificado6 from '../../public/images/certificate/CertificadoDUXUICodoACodo.png'
-import certificado7 from '../../public/images/certificate/Certificado-TailwindCss.jpg'
+import certificado1 from '../../public/images/certificate/violetahours.webp'
+import certificado2 from '../../public/images/certificate/certificado-ingles-preview.webp'
+import certificado3 from '../../public/images/certificate/certificado-python-preview.webp'
+import certificado4 from '../../public/images/certificate/certificadofshenry.webp'
+import certificado5 from '../../public/images/certificate/certificado-testingestatico.webp'
+import certificado6 from '../../public/images/certificate/certificadoduxuicodoacodo.webp'
+import certificado7 from '../../public/images/certificate/certificado-tailwindcss.webp'
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -70,7 +70,7 @@ const certificates = () => {
             img={certificado1}
             title='Teaching Assistant Certificate'
             time='Nov. 2022 - Feb. 2023'
-            link='/images/certificate/VioletaHours.png'
+            link='/images/certificate/violetahours.webp'
             />
             <FeaturedCertificates 
             img={certificado2}

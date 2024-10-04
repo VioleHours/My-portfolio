@@ -5,11 +5,11 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/Countries-PI.png";
-import project2 from "../../public/images/projects/e-latam.png";
-import project3 from "../../public/images/projects/Star-Wars.png";
-import project4 from '../../public/images/projects/Naipes-Conectados.png';
-import project5 from '../../public/images/projects/portfolio.png';
+import project1 from "../../public/images/projects/Countries-PI.webp";
+import project2 from "../../public/images/projects/e-latam.webp";
+import project3 from "../../public/images/projects/Star-Wars.webp";
+import project4 from '../../public/images/projects/Naipes-Conectados.webp';
+import project5 from '../../public/images/projects/portfolio.webp';
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
