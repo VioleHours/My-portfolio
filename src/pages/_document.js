@@ -49,7 +49,10 @@ export default function Document() {
                 </Script>
                 <Main />
                 <NextScript />
-                <script src="./regist_serviceWorker.js"></script>
+                <Script
+                    src="/regist_serviceWorker.js"
+                    strategy="afterInteractive" 
+                />
             </body>
         </Html>
     );
