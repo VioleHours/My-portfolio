@@ -10,6 +10,7 @@ import project2 from "../../public/images/projects/e-latam.webp";
 import project3 from "../../public/images/projects/Star-Wars.webp";
 import project4 from '../../public/images/projects/Naipes-Conectados.webp';
 import project5 from '../../public/images/projects/portfolio.webp';
+import project6 from "../../public/images/projects/ventilgas.webp";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -195,11 +196,20 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Portfolio HTML-Bootstrap"
+                title="Portfolio HTML-BS"
                 link="https://violehoursportfolio.netlify.app/"
                 type="Individual Project"
                 img={project5}
                 github="https://github.com/VioleHours/Portfolio-MediaPila"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Ventilgas Project"
+                link="https://ventilgas-project.vercel.app/"
+                type="Individual Project"
+                img={project6}
+                github="https://github.com/VioleHours/Ventilgas-Project"
               />
             </div>
           </div>
