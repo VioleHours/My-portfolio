@@ -105,8 +105,8 @@ const certificates = () => {
             />
             <FeaturedCertificates 
             img={certificado8}
-            title='TailwindCss Certificate'
-            time='Jul 2024'
+            title='Women Programming Future'
+            time='Aug 2024 - Dic 2024'
             link='/Violeta-Arias-Hours.pdf'
             />
           </ul>
