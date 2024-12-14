@@ -11,6 +11,7 @@ import certificado4 from '../../public/images/certificate/certificadofshenry.web
 import certificado5 from '../../public/images/certificate/certificado-testingestatico.webp'
 import certificado6 from '../../public/images/certificate/certificadoduxuicodoacodo.webp'
 import certificado7 from '../../public/images/certificate/certificado-tailwindcss.webp'
+import certificado8 from '../../public/images/certificate/Violeta-Arias-Hours.webp'
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -96,11 +97,17 @@ const certificates = () => {
             time='May 2024'
             link='/Certificado - Curso de testing estático.pdf'
             />
-             <FeaturedCertificates 
+            <FeaturedCertificates 
             img={certificado7}
             title='TailwindCss Certificate'
             time='Jul 2024'
             link='/certificado-tailwind.pdf'
+            />
+            <FeaturedCertificates 
+            img={certificado8}
+            title='TailwindCss Certificate'
+            time='Jul 2024'
+            link='/Violeta-Arias-Hours.pdf'
             />
           </ul>
         </Layout>
