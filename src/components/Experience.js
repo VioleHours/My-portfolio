@@ -72,7 +72,7 @@ const Experience = () => {
           />
           <Details
             position="Frontend Developer"
-            company="Freelance"
+            company="ProcurePro"
             companyLink=""
             time="Apr. 2024- Oct. 2024"
             address="Remote"
