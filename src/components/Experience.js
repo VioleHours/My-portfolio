@@ -62,7 +62,7 @@ const Experience = () => {
             position="Frontend Developer"
             company="InkuA"
             companyLink="https://www.inkua.de/"
-            time="Jun. 2024- Present"
+            time="Jun. 2024- Oct. 2024"
             address="Remote"
             work={`Main tasks:
               ● Development of websites for NGOs and Odoo updates research for websites.
@@ -74,7 +74,7 @@ const Experience = () => {
             position="Frontend Developer"
             company="Freelance"
             companyLink=""
-            time="Apr. 2024- Present"
+            time="Apr. 2024- Oct. 2024"
             address="Remote"
             work={`Main tasks:
               ● Collaborated with various clients in designing and developing modern and responsive user interfaces (UI). 
