@@ -64,7 +64,7 @@ const about = () => {
                             <p className="my-4 font-medium">
                                 I believe development and design go beyond visuals — 
                                 they&apos;re about solving problems and creating
-                                intuitive, enjoyable interfaces that make people's 
+                                intuitive, enjoyable interfaces that make people&apos;s 
                                 lives easier.
                             </p>
                             <p className="font-medium">
