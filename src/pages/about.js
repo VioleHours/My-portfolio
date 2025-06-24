@@ -53,29 +53,28 @@ const about = () => {
                                 Biography
                             </h2>
                             <p className="font-medium">
-                                Hi, I&apos;m Violeta Sol Arias Hours, a web
-                                developer with a special interest in creating
-                                functional and appealing digital experiences.
-                                With a few months of experience in the industry,
-                                I&apos;m always on the lookout for new
-                                opportunities to expand my knowledge and skills.
-                                My goal is to work alongside my clients to turn
-                                their ideas into reality and deliver
-                                high-quality web solutions.
+                                Hi, I&apos;m Violeta Sol Arias Hours, a Frontend 
+                                Web and Mobile Developer focused on building functional, 
+                                user-friendly digital experiences.
+                                With hands-on experience in real projects 
+                                using technologies like Angular, React, and NativeScript,
+                                I&apos;m constantly evolving as a developer 
+                                and always eager to take on new challenges.
                             </p>
                             <p className="my-4 font-medium">
-                                I believe that development and design are about
-                                more than just making things look pretty -
+                                I believe development and design go beyond visuals — 
                                 they&apos;re about solving problems and creating
-                                intuitive, enjoyable experiences for users.
+                                intuitive, enjoyable interfaces that make people's 
+                                lives easier.
                             </p>
                             <p className="font-medium">
-                                Whether I&apos;m working on a website, mobile
-                                app, or other digital product, I bring my
-                                commitment to design excellence and
-                                user-centered thinking to every project. I look
-                                forward to the opportunity to bring my skills
-                                and passion to your next project.
+                                Whether I&apos;m working on a responsive web 
+                                platform or a cross-platform mobile app, 
+                                I bring a strong attention to detail, 
+                                a passion for user experience, and a 
+                                collaborative mindset. I&apos;m excited to 
+                                contribute my skills, grow with every project, 
+                                and help turn great ideas into reality.
                             </p>
                         </div>
                         <div

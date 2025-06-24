@@ -59,6 +59,18 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Frontend Web/Mobile Developer"
+            company="Internal Project / Freelance"
+            companyLink=""
+            time="May 2025 – Present"
+            address="Remote"
+            work={`Main tasks:
+              ● Developed a cross-platform mobile application using NativeScript and Java.
+              ● Implemented interactive components and dynamic navigation, following responsive design principles and ensuring a smooth user experience.
+              ● Integrated business logic in Java and REST backend services for real-time data management.
+              ● Applied mobile development best practices, version control with Git, and agile methodologies for workflow organization.`}
+          />
+          <Details
             position="Frontend Developer"
             company="InkuA"
             companyLink="https://www.inkua.de/"
